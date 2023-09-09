@@ -14,6 +14,7 @@ Primary sclerosing cholangitis (PSC) is a rare, incurable disease wherein altere
 The following command-line arguments can be used to customize the training process with `REMEDI_model.py`:
 
 ```sh
+mkdir experiments
 python REMEDI_model.py [--algorithm ALGORITHM] [--train_steps TRAIN_STEPS] [--learning_rate LEARNING_RATE] [--n_envs N_ENVS] [--adaptation_days ADAPTATION_DAYS] [--data_ID DATA_ID] [--max_ba_flow MAX_BA_FLOW] [--continue_train_suffix CONTINUE_TRAIN_SUFFIX]
 ```
 
