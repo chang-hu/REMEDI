@@ -93,5 +93,5 @@ if __name__ == '__main__':
         model.learn(total_timesteps=args.train_steps, callback=callbacks, tb_log_name=suffix, reset_num_timesteps=False)
         
     # Save the model and the environment after training
-    model.save(f"{model_path}/model_after_training")
-    env.save(f"{model_path}/env_vecnormalize_after_training.pkl")
+    model.save(f"{model_path}/rl_model_after_training")
+    env.save(f"{model_path}/rl_model_vecnormalize_after_training.pkl")
